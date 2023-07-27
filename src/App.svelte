@@ -18,8 +18,8 @@
     code will be replaced with <kbd>Meow!</kbd>.
   </p>
   <pre>
-    {`<h1 style="color: orange">🐈 {import.meta.env.VITE_CAT}</h1>
-  <h1 style="color: blue">🐶 {import.meta.env.VITE_DOG}</h1>`}
+    {`<h1 style="color: orange">🐈 {import.meta\u200b.env.VITE_CAT}</h1>
+  <h1 style="color: blue">🐶 {import.meta\u200b.env.VITE_DOG}</h1>`}
   </pre>
   <h1 style="color: orange">🐈 {import.meta.env.VITE_CAT}</h1>
   <h1 style="color: blue">🐶 {import.meta.env.VITE_DOG}</h1>
